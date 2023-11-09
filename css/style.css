@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 72px;
+  max-width: 1438px;
+  width: 100%;
+  border: 1px solid green;
+  margin: auto;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 32px;
+}
+
+.book-now-btn {
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 5px;
+  background: linear-gradient(
+    270deg,
+    #c23584 0%,
+    #e2306c 24.48%,
+    #f77736 83.85%,
+    #fa963e 100%
+  );
+  display: inline-flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+/* Pseudo Elements */
+/*.description::after {
+  content: url("../images/leaf.svg");
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.description::before {
+  content: "Before - Some Text";
+  margin-left: 20px;
+  font-size: 24px;
+}*/
+
+/*li:first-child {
+  background-color: red;
+}
+
+li:last-child {
+  background-color: green;
+}
+
+li:nth-child(2) {
+  background-color: yellow;
+}*/
+
+/*li:nth-child(1) {
+  background-color: blue;
+}*/
+
+/*li:nth-child(even) {
+  background-color: green;
+  font-size: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}*/
+
+/*li::first-letter {
+  font-size: 32px;
+  color: red;
+}
+
+.sometext {
+  margin-top: 20px;
+}
+
+.sometext::first-line {
+  background-color: green;
+}*/
