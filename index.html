@@ -5,26 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-    link
     <title>Lecture 10</title>
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="" class="link">Locations</a></li>
-          <li><a href="" class="link">About Us</a></li>
-          <li><a href="" class="link">Lodges</a></li>
-        </ul>
-      </nav>
+      <div class="header-container">
+        <div class="nav-wrapper">
+          <nav>
+            <ul class="nav-list">
+              <li><a href="" class="link">Locations</a></li>
+              <li><a href="" class="link">About Us</a></li>
+              <li><a href="" class="link">Lodges</a></li>
+            </ul>
+          </nav>
 
-      <img src="images/EcoLodgy.svg" alt="Logo" />
-
-      <a href="#" class="book-now-btn">
-        Book Now
-        <img src="images/chevron-right.svg" alt="right" />
-      </a>
+          <img src="images/EcoLodgy.svg" class="logo" alt="Logo" />
+        </div>
+        <a href="#" class="book-now-btn">
+          Book Now
+          <img src="images/chevron-right.svg" alt="right" />
+        </a>
+      </div>
     </header>
+
+    <main class="hero-section">
+      <div class="text-section">
+        <h1>Let Nature <span>Find You</span></h1>
+        <p>Book the best winter holiday destination in the country.</p>
+        <a href="#" class="book-now-btn">
+          Book Now
+          <img src="images/chevron-right.svg" alt="right" />
+        </a>
+      </div>
+
+      <div class="search-destination-section">
+        <div class="travel-details-section">
+          <h4 class="where-link">Where To?</h4>
+          <div class="line"></div>
+          <select name="travelType" id="">
+            <option value="Default">Travel Type</option>
+            <option value="Camping">Camping</option>
+            <option value="Hiking">Hiking</option>
+          </select>
+          <div class="line"></div>
+          <select name="travelType" id="">
+            <option value="Default">Duration</option>
+            <option value="Camping">1 Week</option>
+            <option value="Hiking">1 Month</option>
+          </select>
+        </div>
+        <div class="search">
+          <img src="images/Search.svg" alt="search" />
+        </div>
+      </div>
+    </main>
 
     <!-- Pseudo Elements -->
 
